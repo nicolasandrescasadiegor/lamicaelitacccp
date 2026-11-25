@@ -40,10 +40,10 @@ Luego abre `http://localhost:8000` y `http://localhost:8000/remote.html`.
 
 ## Publicación
 
-Dirección pública: **https://lamicaelitacccp.github.io/**
-Control remoto: **https://lamicaelitacccp.github.io/remote.html**
+Dirección pública: **https://nicolasandrescasadiegor.github.io/lamicaelitacccp/**
+Control remoto: **https://nicolasandrescasadiegor.github.io/lamicaelitacccp/remote.html**
 
-El sitio vive en el repositorio `lamicaelitacccp.github.io` de la cuenta de GitHub `lamicaelitacccp`.
+El sitio vive en el repositorio `lamicaelitacccp` de la cuenta de GitHub `nicolasandrescasadiegor`.
 GitHub publica automáticamente cada cambio que se sube a la rama `main` (tarda uno o dos minutos).
 
 La carpeta `version-anterior` se queda solo en tu computadora: está excluida en `.gitignore`.
