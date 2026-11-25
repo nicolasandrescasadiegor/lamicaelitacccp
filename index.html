@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1e1c18">
+  <meta name="description" content="Casa La Micaelita: vivienda unifamiliar entre patios en San Pedro Tlaquepaque, Jalisco. Ladrillo y concreto a la vista, interior mid-century. Propuesta de concurso 2025.">
+  <title>Casa La Micaelita — Tlaquepaque, México</title>
+
+  <!-- Icono de la pestaña y de la pantalla de inicio (iPhone) -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Vista previa al compartir (WhatsApp, LinkedIn, Facebook, X).
+       Dirección publicada: https://lamicaelitacccp.github.io/ (cuenta de GitHub "lamicaelitacccp").
+       Si cambias de dirección, actualiza og:url, og:image y twitter:image. -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="Casa La Micaelita">
+  <meta property="og:title" content="Casa La Micaelita — Tlaquepaque, México">
+  <meta property="og:description" content="Vivienda unifamiliar entre patios, con ladrillo y concreto a la vista. Propuesta de concurso 2025.">
+  <meta property="og:url" content="https://lamicaelitacccp.github.io/">
+  <meta property="og:image" content="https://lamicaelitacccp.github.io/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Patio con jardín, sala y barra de cocina de Casa La Micaelita">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://lamicaelitacccp.github.io/assets/og-image.jpg">
+
+  <!-- Tipografías: Archivo Black (titulares), Archivo (texto) e Instrument Serif (cursivas) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap">
+
+  <!-- La primera escena se carga antes que todo lo demás -->
+  <link rel="preload" as="image" href="assets/im6.webp" imagesrcset="assets/im6-800.webp 800w, assets/im6.webp 1360w" imagesizes="100vw" fetchpriority="high">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+
+  <!-- Librerías permitidas por CDN: GSAP + ScrollTrigger y Lenis -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#proyecto">Saltar al contenido</a>
+
+  <!-- =====================================================
+       HEADER fijo y transparente
+       ===================================================== -->
+  <header class="header" data-header>
+    <a class="header__brand" href="#inicio" aria-label="Casa La Micaelita, volver al inicio">
+      Casa <em>La Micaelita</em>
+    </a>
+    <nav class="header__nav" id="menu" aria-label="Secciones">
+      <a href="#proyecto">Proyecto</a>
+      <a href="#arquitectura">Arquitectura</a>
+      <a href="#planos">Planos</a>
+      <a href="#recorrido">Recorrido</a>
+      <a href="#ubicacion">Ubicación</a>
+      <a class="header__cta header__cta--menu" href="#contacto">Contacto</a>
+    </nav>
+    <a class="header__cta" href="#contacto">Contacto</a>
+    <button class="header__toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- =====================================================
+         1. HERO — escenas a pantalla completa
+         Cada <article class="scene"> es una escena. Para agregar o quitar escenas,
+         copia o borra un bloque completo; el contador y las miniaturas se crean solos.
+         ===================================================== -->
+    <section class="hero" id="inicio" aria-roledescription="carrusel" aria-label="Escenas de Casa La Micaelita">
+      <h1 class="sr-only">Casa La Micaelita — vivienda unifamiliar en San Pedro Tlaquepaque, Jalisco</h1>
+
+      <div class="hero__scenes">
+        <article class="scene is-active" data-label="01 — El jardín" data-title="El jardín" data-thumb="assets/im6-400.webp" aria-roledescription="escena" aria-label="1 de 8">
+          <div class="scene__media">
+            <img src="assets/im6.webp" srcset="assets/im6-800.webp 800w, assets/im6.webp 1360w" sizes="100vw" width="1360" height="1024" fetchpriority="high" decoding="async"
+                 alt="Jardín con césped frente a la sala y la barra de la cocina, bajo la sombra de los árboles">
+          </div>
+          <div class="scene__text">
+            <p class="label scene__label">01 — El jardín</p>
+            <h2 class="t-display scene__title"><span class="mask"><span>Entrar</span></span> <span class="mask"><em>por el jardín</em></span></h2>
+            <p class="scene__desc">Al fondo, el jardín recibe la sala y la barra de la cocina.</p>
+          </div>
+        </article>
+
+        <article class="scene" data-label="02 — La celosía" data-title="La celosía" data-thumb="assets/im0-400.webp" aria-roledescription="escena" aria-label="2 de 8" aria-hidden="true">
+          <div class="scene__media">
+            <img src="assets/im0.webp" srcset="assets/im0-800.webp 800w, assets/im0.webp 1440w" sizes="100vw" width="1440" height="1080" loading="lazy" decoding="async"
+                 alt="Sala con sillón beige y silla de madera junto a una celosía de ladrillo y la escalera">
+          </div>
+          <div class="scene__text">
+            <p class="label scene__label">02 — La celosía</p>
+            <h2 class="t-display scene__title"><span class="mask"><span>Luz que se</span></span> <span class="mask"><em>filtra</em></span></h2>
+            <p class="scene__desc">Un muro calado de ladrillo deja pasar la luz junto a la escalera.</p>
+          </div>
+        </article>
+
+        <article class="scene" data-label="03 — La sala" data-title="La sala" data-thumb="assets/im2-400.webp" aria-roledescription="escena" aria-label="3 de 8" aria-hidden="true">
+          <div class="scene__media">
+            <img src="assets/im2.webp" srcset="assets/im2-800.webp 800w, assets/im2.webp 1536w" sizes="100vw" width="1536" height="1024" loading="lazy" decoding="async"
+                 alt="Sofá junto a un patio arbolado, con la cocina al fondo y un muro blanco al centro">
+          </div>
+          <div class="scene__text">
+            <p class="label scene__label">03 — La sala</p>
+            <h2 class="t-display scene__title"><span class="mask"><span>Una sala</span></span> <span class="mask"><em>hacia el patio</em></span></h2>
+            <p class="scene__desc">La sala, el comedor y la cocina se abren al jardín.</p>
+          </div>
+        </article>
+
+        <article class="scene" data-label="04 — El comedor" data-title="El comedor" data-thumb="assets/im1-400.webp" aria-roledescription="escena" aria-label="4 de 8" aria-hidden="true">
+          <div class="scene__media">
+            <img src="assets/im1.webp" srcset="assets/im1-800.webp 800w, assets/im1.webp 1536w" sizes="100vw" width="1536" height="1024" loading="lazy" decoding="async"
+                 alt="Comedor con mesa de madera, sillas de rejilla y dos lámparas negras frente a un muro de ladrillo claro">
+          </div>
+          <div class="scene__text">
+            <p class="label scene__label">04 — El comedor</p>
+            <h2 class="t-display scene__title"><span class="mask"><span>La mesa</span></span> <span class="mask"><em>bajo el ladrillo</em></span></h2>
+            <p class="scene__desc">Madera, rejilla y ladrillo claro alrededor de la mesa.</p>
+          </div>
+        </article>
+
+        <article class="scene" data-label="05 — La cocina" data-title="La cocina" data-thumb="assets/im3-400.webp" aria-roledescription="escena" aria-label="5 de 8" aria-hidden="true">
+          <div class="scene__media">
+            <img src="assets/im3.webp" srcset="assets/im3-800.webp 800w, assets/im3.webp 1536w" sizes="100vw" width="1536" height="1024" loading="lazy" decoding="async"
+                 alt="Cocina con muebles de madera oscura, isla con dos bancos y área de lavado">
+          </div>
+          <div class="scene__text">
+            <p class="label scene__label">05 — La cocina</p>
+            <h2 class="t-display scene__title"><span class="mask"><span>La cocina</span></span> <span class="mask"><em>abierta al día</em></span></h2>
+            <p class="scene__desc">Muebles de madera, una isla y luz natural sobre el piso claro.</p>
+          </div>
+        </article>
+
+        <article class="scene" data-label="06 — La sala común" data-title="La sala común" data-thumb="assets/im4-400.webp" aria-roledescription="escena" aria-label="6 de 8" aria-hidden="true">
+          <div class="scene__media">
+            <img src="assets/im4.webp" srcset="assets/im4-800.webp 800w, assets/im4.webp 1536w" sizes="100vw" width="1536" height="1024" loading="lazy" decoding="async"
+                 alt="Sofá beige frente a un muro de ladrillo rojo con televisor y ventilador de techo">
+          </div>
+          <div class="scene__text">
+            <p class="label scene__label">06 — La sala común</p>
+            <h2 class="t-display scene__title"><span class="mask"><span>Ladrillo</span></span> <span class="mask"><em>a la vista</em></span></h2>
+            <p class="scene__desc">Un muro de ladrillo rojo enmarca la sala común.</p>
+          </div>
+        </article>
+
+        <article class="scene" data-label="07 — La habitación" data-title="La habitación" data-thumb="assets/im7-400.webp" aria-roledescription="escena" aria-label="7 de 8" aria-hidden="true">
+          <div class="scene__media">
+            <img src="assets/im7.webp" srcset="assets/im7-800.webp 800w, assets/im7.webp 1536w" sizes="100vw" width="1536" height="1024" loading="lazy" decoding="async"
+                 alt="Habitación con cama, techo de madera, muros de ladrillo claro y mueble flotante bajo el televisor">
+          </div>
+          <div class="scene__text">
+            <p class="label scene__label">07 — La habitación</p>
+            <h2 class="t-display scene__title"><span class="mask"><span>Madera</span></span> <span class="mask"><em>en lo alto</em></span></h2>
+            <p class="scene__desc">Techo de madera y muros de ladrillo claro.</p>
+          </div>
+        </article>
+
+        <article class="scene" data-label="08 — El descanso" data-title="El descanso" data-thumb="assets/im5-400.webp" aria-roledescription="escena" aria-label="8 de 8" aria-hidden="true">
+          <div class="scene__media">
+            <img src="assets/im5.webp" srcset="assets/im5-800.webp 800w, assets/im5.webp 1536w" sizes="100vw" width="1536" height="1024" loading="lazy" decoding="async"
+                 alt="Dormitorio con cama, dos lámparas de mesa encendidas y muros de ladrillo claro">
+          </div>
+          <div class="scene__text">
+            <p class="label scene__label">08 — El descanso</p>
+            <h2 class="t-display scene__title"><span class="mask"><span>Descanso</span></span> <span class="mask"><em>en penumbra</em></span></h2>
+            <p class="scene__desc">Luz cálida de lámparas entre muros de ladrillo.</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- Controles del hero: contador, progreso, flechas, pausa y miniaturas (las crea main.js) -->
+      <div class="hero__ui">
+        <div class="hero__status">
+          <p class="hero__counter label" aria-hidden="true"><span data-current>01</span> / <span data-total>08</span></p>
+          <div class="hero__progress" aria-hidden="true"><span data-progress></span></div>
+          <div class="hero__buttons">
+            <button type="button" class="icon-btn" data-prev aria-label="Escena anterior">←</button>
+            <button type="button" class="icon-btn" data-pause aria-pressed="false" aria-label="Pausar el pase automático"><span class="icon-pause" aria-hidden="true"></span></button>
+            <button type="button" class="icon-btn" data-next aria-label="Escena siguiente">→</button>
+          </div>
+        </div>
+        <div class="hero__thumbs" data-thumbs role="group" aria-label="Elegir escena"></div>
+      </div>
+
+      <a class="hero__skip label" href="#proyecto">Bajar <span aria-hidden="true">↓</span></a>
+      <p class="sr-only" aria-live="polite" data-live></p>
+    </section>
+
+    <!-- =====================================================
+         2. PRESENTACIÓN DEL PROYECTO
+         ===================================================== -->
+    <section class="intro section" id="proyecto" tabindex="-1">
+      <p class="label" data-reveal="fade">01 — El proyecto</p>
+      <p class="intro__text" data-reveal="fade">
+        Una vivienda unifamiliar en Tlaquepaque que busca nuevas formas de habitar:
+        <em>espacios sociales y privados con materiales de la región.</em>
+      </p>
+      <p class="intro__sub" data-reveal="fade">Proyección industrial, materiales a la vista e interiorismo mid-century.</p>
+
+      <!-- Cifras clave: el número final va en data-count y también como texto (por si no carga el JS) -->
+      <ul class="stats">
+        <li class="stats__item" data-reveal="fade">
+          <span class="stats__num"><span data-count="154.56" data-decimals="2">154.56</span><small>m²</small></span>
+          <span class="label">Superficie total</span>
+          <span class="stats__note">81.26 m² planta baja + 73.30 m² planta alta</span>
+        </li>
+        <li class="stats__item" data-reveal="fade">
+          <span class="stats__num"><span data-count="2">2</span></span>
+          <span class="label">Niveles</span>
+        </li>
+        <li class="stats__item" data-reveal="fade">
+          <span class="stats__num"><span data-count="4">4</span></span>
+          <span class="label">Habitaciones</span>
+          <span class="stats__note">Una abajo y tres arriba</span>
+        </li>
+        <li class="stats__item" data-reveal="fade">
+          <span class="stats__num"><span data-count="2">2</span></span>
+          <span class="label">Plazas de parqueadero</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- =====================================================
+         3. MARQUEE — palabras clave en movimiento
+         El grupo se repite dos veces para que el bucle no tenga cortes.
+         ===================================================== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track" data-marquee>
+        <div class="marquee__group">
+          <span>Ladrillo</span><i>✦</i><span class="is-outline">Concreto</span><i>✦</i>
+          <span>Patios</span><i>✦</i><span class="is-outline">Madera</span><i>✦</i>
+          <span>Luz natural</span><i>✦</i><span class="is-outline">Mid-century</span><i>✦</i>
+          <span>Materiales de la región</span><i>✦</i><span class="is-outline">Jardín</span><i>✦</i>
+        </div>
+        <div class="marquee__group">
+          <span>Ladrillo</span><i>✦</i><span class="is-outline">Concreto</span><i>✦</i>
+          <span>Patios</span><i>✦</i><span class="is-outline">Madera</span><i>✦</i>
+          <span>Luz natural</span><i>✦</i><span class="is-outline">Mid-century</span><i>✦</i>
+          <span>Materiales de la región</span><i>✦</i><span class="is-outline">Jardín</span><i>✦</i>
+        </div>
+      </div>
+    </div>
+
+    <!-- =====================================================
+         4. TRES GESTOS, UNA CASA — scroll horizontal fijado
+         En móvil (o con movimiento reducido) se muestra en vertical.
+         ===================================================== -->
+    <section class="gestures" id="arquitectura" tabindex="-1">
+      <div class="gestures__track">
+        <div class="gestures__intro">
+          <p class="label">02 — Arquitectura</p>
+          <h2 class="t-display gestures__title">Tres gestos, <em>una casa</em></h2>
+          <p class="gestures__lead">Tres ideas ordenan la vivienda, de la calle al jardín.</p>
+          <p class="gestures__hint label" aria-hidden="true">Sigue bajando <span>→</span></p>
+        </div>
+
+        <article class="gesture">
+          <div class="gesture__media" data-cursor="Ver">
+            <img src="assets/im2-800.webp" srcset="assets/im2-800.webp 800w, assets/im2.webp 1536w" sizes="(min-width: 900px) 45vw, 100vw" width="1536" height="1024" loading="lazy" decoding="async"
+                 alt="Sala abierta a un patio interior con árboles y muros de ladrillo">
+          </div>
+          <div class="gesture__text">
+            <span class="gesture__num" aria-hidden="true">01</span>
+            <p class="label">Gesto 01 — Los patios</p>
+            <h3 class="t-display gesture__title">Luz <em>entre patios</em></h3>
+            <p>Un patio en la entrada, otro al centro y un jardín al fondo: cada espacio mira a uno.</p>
+          </div>
+        </article>
+
+        <article class="gesture">
+          <div class="gesture__media" data-cursor="Ver">
+            <img src="assets/im4-800.webp" srcset="assets/im4-800.webp 800w, assets/im4.webp 1536w" sizes="(min-width: 900px) 45vw, 100vw" width="1536" height="1024" loading="lazy" decoding="async"
+                 alt="Muro de ladrillo rojo a la vista detrás de la sala común">
+          </div>
+          <div class="gesture__text">
+            <span class="gesture__num" aria-hidden="true">02</span>
+            <p class="label">Gesto 02 — La materia</p>
+            <h3 class="t-display gesture__title">Materia <em>a la vista</em></h3>
+            <p>Ladrillo y concreto sin revestir, con materiales de la región.</p>
+          </div>
+        </article>
+
+        <article class="gesture gesture--diagram">
+          <div class="gesture__media gesture__media--diagram">
+            <img src="assets/im10.webp" width="355" height="206" loading="lazy" decoding="async"
+                 alt="Axonometría explotada: la planta baja en rojo con los espacios sociales y la planta alta en azul con los privados">
+            <ul class="gesture__legend">
+              <li><span class="dot dot--social" aria-hidden="true"></span>Planta baja · espacios sociales</li>
+              <li><span class="dot dot--private" aria-hidden="true"></span>Planta alta · espacios privados</li>
+            </ul>
+          </div>
+          <div class="gesture__text">
+            <span class="gesture__num" aria-hidden="true">03</span>
+            <p class="label">Gesto 03 — Los niveles</p>
+            <h3 class="t-display gesture__title">Abajo se convive, <em>arriba se descansa</em></h3>
+            <p>Abajo, sala, comedor, cocina y patios; arriba, tres habitaciones, una con baño privado y vestidor.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         5. PLANOS — lista editorial con vista previa que sigue al cursor
+         Para cambiar un plano, edita data-plan (imagen grande) y data-thumb (vista previa).
+         ===================================================== -->
+    <section class="plans section" id="planos" tabindex="-1">
+      <div class="plans__head">
+        <p class="label" data-reveal="fade">03 — Planimetría</p>
+        <h2 class="t-display plans__title" data-reveal="lines"><span class="mask"><span>Siete láminas,</span></span> <span class="mask"><em>una casa</em></span></h2>
+        <p class="plans__lead" data-reveal="fade">De la planta baja al detalle constructivo. Abre cada lámina para verla con zoom.</p>
+      </div>
+
+      <ol class="plans__list" data-plans>
+        <li><button type="button" class="plan-row plan-row--main" data-plan="assets/plano-1.webp" data-thumb="assets/plano-1-600.webp" data-title="A-101 · Primera planta" data-cursor="Abrir">
+          <span class="plan-row__code">A-101</span><span class="plan-row__name">Primer piso</span><span class="plan-row__meta">81.26 m² · 1:100</span><span class="plan-row__arrow" aria-hidden="true">↗</span>
+        </button></li>
+        <li><button type="button" class="plan-row plan-row--main" data-plan="assets/plano-2.webp" data-thumb="assets/plano-2-600.webp" data-title="A-102 · Segunda planta" data-cursor="Abrir">
+          <span class="plan-row__code">A-102</span><span class="plan-row__name">Segundo piso</span><span class="plan-row__meta">73.30 m² · 1:100</span><span class="plan-row__arrow" aria-hidden="true">↗</span>
+        </button></li>
+        <li><button type="button" class="plan-row" data-plan="assets/plano-3.webp" data-thumb="assets/plano-3-600.webp" data-title="A-103 · Planta de cubierta" data-cursor="Abrir">
+          <span class="plan-row__code">A-103</span><span class="plan-row__name">Planta de cubierta</span><span class="plan-row__meta">1:100</span><span class="plan-row__arrow" aria-hidden="true">↗</span>
+        </button></li>
+        <li><button type="button" class="plan-row" data-plan="assets/plano-4.webp" data-thumb="assets/plano-4-600.webp" data-title="A-104 · Sección A–A′" data-cursor="Abrir">
+          <span class="plan-row__code">A-104</span><span class="plan-row__name">Sección A–A′</span><span class="plan-row__meta">1:100</span><span class="plan-row__arrow" aria-hidden="true">↗</span>
+        </button></li>
+        <li><button type="button" class="plan-row" data-plan="assets/plano-5.webp" data-thumb="assets/plano-5-600.webp" data-title="A-105 · Fachada" data-cursor="Abrir">
+          <span class="plan-row__code">A-105</span><span class="plan-row__name">Fachada</span><span class="plan-row__meta">1:100</span><span class="plan-row__arrow" aria-hidden="true">↗</span>
+        </button></li>
+        <li><button type="button" class="plan-row" data-plan="assets/plano-6.webp" data-thumb="assets/plano-6-600.webp" data-title="A-106 · Detalle constructivo" data-cursor="Abrir">
+          <span class="plan-row__code">A-106</span><span class="plan-row__name">Detalle constructivo</span><span class="plan-row__meta">Detalle</span><span class="plan-row__arrow" aria-hidden="true">↗</span>
+        </button></li>
+        <li><button type="button" class="plan-row" data-plan="assets/plano-7.webp" data-thumb="assets/plano-7-600.webp" data-title="A-107 · Planta de conjunto" data-cursor="Abrir">
+          <span class="plan-row__code">A-107</span><span class="plan-row__name">Planta de conjunto</span><span class="plan-row__meta">1:100</span><span class="plan-row__arrow" aria-hidden="true">↗</span>
+        </button></li>
+        <li><button type="button" class="plan-row" data-plan="assets/lamina.webp" data-thumb="assets/lamina.webp" data-title="Lámina de presentación del concurso" data-cursor="Abrir">
+          <span class="plan-row__code">Lámina</span><span class="plan-row__name">Presentación del concurso</span><span class="plan-row__meta">Resumen</span><span class="plan-row__arrow" aria-hidden="true">↗</span>
+        </button></li>
+      </ol>
+
+      <!-- Vista previa flotante (solo escritorio) -->
+      <div class="plan-preview" aria-hidden="true" data-plan-preview><img alt=""></div>
+    </section>
+
+    <!-- =====================================================
+         6. RECORRIDO — video que crece de tarjeta a pantalla completa
+         Guarda tu video como assets/recorrido.mp4 y aparecerá solo.
+         ===================================================== -->
+    <section class="tour" id="recorrido" tabindex="-1">
+      <div class="tour__head section">
+        <p class="label" data-reveal="fade">04 — Recorrido</p>
+        <h2 class="t-display tour__title" data-reveal="lines"><span class="mask"><span>Un paseo</span></span> <span class="mask"><em>por la casa</em></span></h2>
+      </div>
+      <div class="tour__stage" data-tour>
+        <div class="tour__frame" data-tour-frame>
+          <video class="tour__video" playsinline preload="metadata" poster="assets/recorrido-poster.webp" aria-label="Video del recorrido por Casa La Micaelita">
+            <source src="assets/recorrido.mp4" type="video/mp4">
+          </video>
+          <button type="button" class="tour__play" data-tour-play aria-label="Reproducir el recorrido" data-cursor="Play">
+            <span class="tour__play-icon" aria-hidden="true"></span>
+            <span class="label">Reproducir</span>
+          </button>
+          <p class="tour__missing" data-tour-missing hidden>
+            <span class="dato">[DATO: video del recorrido — guarda el archivo como assets/recorrido.mp4]</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         7. MATERIALES Y ATMÓSFERA — titular sobre render con parallax
+         ===================================================== -->
+    <section class="materials" id="materiales" aria-labelledby="materiales-titulo">
+      <div class="materials__media" aria-hidden="true">
+        <img src="assets/im5.webp" srcset="assets/im5-800.webp 800w, assets/im5.webp 1536w" sizes="100vw" width="1536" height="1024" loading="lazy" decoding="async" alt="" data-parallax>
+      </div>
+      <div class="materials__content">
+        <p class="label" data-reveal="fade">05 — Materiales</p>
+        <h2 class="t-display materials__title" id="materiales-titulo" data-reveal="lines"><span class="mask"><span>Ladrillo cálido,</span></span> <span class="mask"><em>luz indirecta</em></span></h2>
+        <p class="materials__text" data-reveal="fade">Ladrillo y concreto a la vista acompañan un interior de inspiración mid-century.</p>
+        <ul class="materials__chips label" data-reveal="fade">
+          <li>Ladrillo</li><li>Concreto</li><li>Madera</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         8. UBICACIÓN — sección con el color de acento fuerte
+         ===================================================== -->
+    <section class="location section" id="ubicacion" tabindex="-1">
+      <p class="label" data-reveal="fade">06 — Ubicación</p>
+      <h2 class="t-display location__title" data-reveal="lines"><span class="mask"><span>Tlaquepaque,</span></span> <span class="mask"><em>Jalisco</em></span></h2>
+      <div class="location__grid">
+        <p class="location__text" data-reveal="fade">
+          <span class="dato">[DATO: texto sobre Tlaquepaque y el entorno del terreno]</span>
+        </p>
+        <dl class="location__data" data-reveal="fade">
+          <div><dt class="label">Dirección</dt><dd>Entre las calles Los Pinos y Deportes, San Pedro Tlaquepaque, Jalisco, México</dd></div>
+          <div><dt class="label">Zona</dt><dd>Área metropolitana de Guadalajara</dd></div>
+          <div><dt class="label">Terreno</dt><dd>6 × 20 m <small>(según el plano A-101)</small></dd></div>
+          <div><dt class="label">Fecha</dt><dd>Abril 2025</dd></div>
+        </dl>
+      </div>
+      <a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Los+Pinos+y+Deportes%2C+San+Pedro+Tlaquepaque%2C+Jalisco" target="_blank" rel="noopener">Ver en el mapa <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <!-- =====================================================
+         9. CIERRE / CONTACTO
+         ===================================================== -->
+    <section class="contact section" id="contacto" tabindex="-1">
+      <p class="label" data-reveal="fade">07 — Contacto</p>
+      <h2 class="t-display contact__title" data-reveal="lines"><span class="mask"><span>¿Hablamos</span></span> <span class="mask"><em>del proyecto?</em></span></h2>
+      <!-- Cuando tengas el correo: cambia href="#" por href="mailto:tu@correo.com",
+           borra data-pending y reemplaza el marcador por el correo. -->
+      <a class="contact__mail" href="#" data-pending data-reveal="fade">
+        <span class="dato">[DATO: correo de contacto]</span> <span class="contact__arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <div class="credits">
+        <div data-reveal="fade">
+          <h3 class="label">Arquitectura</h3>
+          <ul>
+            <li>Nicolas Andrés Casadiego Rodrigues</li>
+            <li>Andres Mauricio Pinzon Chinchilla</li>
+          </ul>
+        </div>
+        <div data-reveal="fade">
+          <h3 class="label">Concurso</h3>
+          <p>Diseño de Vivienda Unifamiliar · 2025</p>
+        </div>
+        <div data-reveal="fade">
+          <h3 class="label">Organizan</h3>
+          <p>Arquitectura Avanza y GDL Propiedades</p>
+          <p><span class="dato">[DATO: confirmar nombre del organizador — la lámina dice “Arquitectura Avanzada”]</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================
+       PIE DE PÁGINA — nombre gigante cortado por el borde
+       ===================================================== -->
+  <footer class="footer">
+    <div class="footer__top">
+      <nav class="footer__nav" aria-label="Secciones (pie de página)">
+        <a href="#proyecto">Proyecto</a>
+        <a href="#arquitectura">Arquitectura</a>
+        <a href="#planos">Planos</a>
+        <a href="#recorrido">Recorrido</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <p class="footer__meta label">San Pedro Tlaquepaque · Jalisco · 2025</p>
+      <button type="button" class="footer__top-btn label" data-to-top>Volver arriba <span aria-hidden="true">↑</span></button>
+    </div>
+    <p class="footer__giant" aria-hidden="true">Micaelita</p>
+  </footer>
+
+  <!-- Visor de planos a pantalla completa con zoom y arrastre -->
+  <dialog class="viewer" aria-labelledby="viewer-title" data-viewer>
+    <div class="viewer__bar">
+      <p class="label" id="viewer-title" data-viewer-title></p>
+      <div class="viewer__tools">
+        <button type="button" class="icon-btn" data-zoom="out" aria-label="Alejar">−</button>
+        <button type="button" class="icon-btn" data-zoom="in" aria-label="Acercar">+</button>
+        <button type="button" class="icon-btn icon-btn--text" data-zoom="reset" aria-label="Ajustar a la pantalla">1:1</button>
+        <form method="dialog"><button class="icon-btn" aria-label="Cerrar visor">×</button></form>
+      </div>
+    </div>
+    <div class="viewer__stage" data-viewer-stage>
+      <img alt="" data-viewer-img draggable="false">
+    </div>
+    <button type="button" class="viewer__nav viewer__nav--prev icon-btn" data-viewer-prev aria-label="Lámina anterior">←</button>
+    <button type="button" class="viewer__nav viewer__nav--next icon-btn" data-viewer-next aria-label="Lámina siguiente">→</button>
+    <p class="viewer__hint label">Rueda o pellizco para zoom · arrastra para mover</p>
+  </dialog>
+</body>
+</html>

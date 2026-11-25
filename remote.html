@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1e1c18">
+  <meta name="robots" content="noindex">
+  <title>Control remoto — Casa La Micaelita</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/remote.js" defer></script>
+</head>
+<body class="remote">
+  <!-- =====================================================
+       MODO PRESENTACIÓN — control remoto
+       Abre index.html en la ventana del proyector y esta página en tu pantalla.
+       Se comunican con BroadcastChannel (mismo navegador, misma computadora).
+       ===================================================== -->
+  <header class="remote__top">
+    <p class="remote__brand">Casa <em>La Micaelita</em> · Control remoto</p>
+    <p class="remote__status label" data-status role="status">Buscando la presentación…</p>
+  </header>
+
+  <!-- Se muestra mientras no hay una ventana de index.html abierta -->
+  <section class="remote__waiting" data-waiting>
+    <h1 class="t-display">Abre la <em>presentación</em></h1>
+    <p>Abre la página principal en otra ventana y llévala al proyector. Este control se conectará solo.</p>
+    <button type="button" class="text-link" data-open>Abrir la página principal <span aria-hidden="true">↗</span></button>
+  </section>
+
+  <!-- Panel de control (aparece al conectar) -->
+  <main data-panel hidden>
+    <div class="remote__main">
+      <section class="remote__now" aria-live="polite">
+        <p class="label">Ahora en pantalla</p>
+        <h1 class="t-display remote__current"><span data-now-count>01 / 08</span> <em data-now-title>—</em></h1>
+        <div class="remote__preview"><img data-now-img alt=""></div>
+      </section>
+
+      <div class="remote__side">
+        <div class="remote__next">
+          <img data-next-img alt="">
+          <p><span class="label">Siguiente</span><br><span data-next-title>—</span></p>
+        </div>
+        <div class="remote__controls">
+          <button type="button" class="remote__btn" data-cmd="prev">← Anterior</button>
+          <button type="button" class="remote__btn" data-cmd="next">Siguiente →</button>
+          <button type="button" class="remote__btn remote__btn--wide" data-autoplay aria-pressed="false">Autoplay: apagado</button>
+        </div>
+        <p class="remote__hint">
+          Atajos aquí: <kbd>←</kbd> <kbd>→</kbd> o <kbd>Espacio</kbd>.<br>
+          En la ventana del proyector, pulsa <kbd>F</kbd> para pantalla completa.
+        </p>
+      </div>
+    </div>
+
+    <div class="remote__thumbs" data-thumbs role="group" aria-label="Elegir escena"></div>
+  </main>
+</body>
+</html>

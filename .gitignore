@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+
+# Copia local de la versión anterior (no se publica)
+version-anterior/
